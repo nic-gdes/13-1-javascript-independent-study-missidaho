@@ -5,10 +5,12 @@ const hamburger = document.querySelector('.hamburger');
 
 // the hamburger is clicked then
 hamburger.addEventListener('click',function (){
-    hamburger.classList.toggle('active');
+hamburger.classList.toggle('hamburger');
+const list = document.querySelector('.list');
+list.classList.toggle('active')
+        
+
 })
     // the list needs to pop down
-    if (x === list.active ) {
-
-    }
+   
 // when the hamburger is clicked again the list needs to close
