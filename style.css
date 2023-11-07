@@ -13,6 +13,8 @@ nav {
     padding: 0;
     background-color: rgb(219, 255, 255);
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 
 }
 /* nav items */
@@ -26,18 +28,18 @@ h1 {
     list-style: none;
     display: block;
     color: rgb(32, 170, 204);
-   
     margin: none;
 }
 .list_item {
     margin: 1rem;
+    margin-top: 0;
     font-size: 1.5rem;
     /* padding-top: 2rem; */
 }
 /* hamburger */
 
 button {
-    width: 3rem;
+    width: 5rem;
     height: 3rem;
     background: none;
 	color: inherit;
@@ -46,10 +48,12 @@ button {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    padding-right: 2rem;
+
     
 }
 .hamburger {
-    width: 3rem;
+    width: 5rem;
     background-color: none;
     height: 3rem;
 
@@ -64,7 +68,7 @@ span {
     margin: 1rem;
     border-radius: 5px;
 }
-.hamburger span:nth-child(2) {
+/* .hamburger span:nth-child(2) {
     margin-top: 5px;
     margin-bottom: 5px;
-}
+} */
