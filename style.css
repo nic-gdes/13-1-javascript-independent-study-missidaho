@@ -29,6 +29,7 @@ h1 {
     display: flex;
     color: rgb(32, 170, 204);
     margin: none;
+    padding-top: 4rem;
 }
 .list_item {
     margin: 1rem;
